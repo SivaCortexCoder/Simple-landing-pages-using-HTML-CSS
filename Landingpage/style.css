@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Assests/rockstar_games_holiday_sale_2021_1640083078262.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+h2{
+    background-color: #000000;
+    color: #fcaf17;
+    padding: 10px;
+
+}
+
+header {
+    text-align: center;
+    background-color:black;
+    color: #fff;
+    padding: 10px 0;
+}
+nav {
+    text-align: center;
+     background-color:#fcaf17;
+    color: #fff;
+    padding: 5px 0;
+    border: 2px solid black;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+}
+.container {
+ text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links a {
+    color: #fcaf17;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  #contact{
+    text-align: left;
+    padding-left: 20px;
+  }
+  #contact a{
+    text-decoration: none;
+    color: white;
+  }
+  .about{
+    margin: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 10px;
+    
+  }
+  .container .about{
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  .container .about:hover{
+    transform: scale(1.25);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border: 3px solid rgb(255, 255, 255);
+  }
+ 
